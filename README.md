@@ -24,33 +24,21 @@ pdf 업로드 미리보기가 가능하고, OpenAI API키를 쉽게 업로드할
    pip install -r requirements.txt
    ```
 
-## Usage
+## 사용
 
-1. Run the application:
+1. 애플리케이션 실행
 
    ```bash
    python app.py
    ```
 
-2. Access the application in your web browser as specified in the console.
+2. 콘솔에서 알려주는 대로 웹 브라우저에서 애플리케이션에 액세스.
+   
+3. OpenAI API 키를 입력 Enter. 애플리케이션은 챗봇 응답을 생성하기 위해 OpenAI API를 사용한다. 
+  
+4. PDF 업로드하면 미리보기가 표시된다. 
 
-3. Enter your OpenAI API key in the provided input box and press enter.
+5. 챗봇에게 질문하거나 대화를 나눈다. 
 
-4. To preview a PDF file, click the "Upload PDF" button and select the PDF file from your local machine. The application will display a preview of the PDF file.
-
-5. Use the chatbox to ask questions or have a conversation with the chatbot. The chatbot will generate responses based on the input.
-
-
-## Configuration
-
-- The application uses the OpenAI API for generating chatbot responses. Make sure to provide a valid OpenAI API key.
-
-## Contributing
-
-Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [Apache License 2.0](LICENSE).
 
 This application was developed using https://www.analyticsvidhya.com/blog/2023/05/build-a-chatgpt-for-pdfs-with-langchain/

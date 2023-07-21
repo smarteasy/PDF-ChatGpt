@@ -2,12 +2,12 @@ import gradio as gr
 
 # Gradio application setup
 def create_demo():
-    with gr.Blocks(title= " PDF Chatbot",
-        theme = "Soft"  # Change the theme here
+    with gr.Blocks(title= " PDF Chatbot", # <class 'gradio.blocks.Blocks'>
+        theme = "Soft"  
         ) as demo:
         
         # Create a Gradio block
-
+            
         with gr.Column():
             with gr.Row():
                 with gr.Column(scale=0.8):

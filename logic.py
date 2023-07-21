@@ -6,6 +6,8 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain.chat_models import ChatOpenAI
 from langchain.document_loaders import PyPDFLoader
 import fitz
+# pip install PyMuPDF, https://pymupdf.readthedocs.io/en/latest/
+
 from PIL import Image
 
 # Global variables

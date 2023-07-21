@@ -1,27 +1,16 @@
 # PDF-ChatGpt
 
-The PDF Chatbot is an application that allows users to upload PDF files and interact with pdf using a chatbot. Users can ask questions or provide input, and the chatbot will generate responses based on the provided information.
+PDF 업로드, PDF와 상호작용. 사용자 입력에 답변을 생성한다. 
 
-## Technologies Used
 
-- Langchain
-- Gradio
-- OpenAI API
-- ChromaDB
+Langchain, Gradio, OpenAI API, ChromaDB가 사용된다. 
+https://www.gradio.app/
 
-## Features
+pdf 업로드 미리보기가 가능하고, OpenAI API키를 쉽게 업로드할 수 있고 챗이 가능하다. 
 
-- Chat with a chatbot: Ask questions or have a conversation with the chatbot.
-- Upload PDF files: Preview PDF files by uploading them to the application.
-- Update API Key: Easily update the OpenAI API key used by the chatbot.
+[데모](https://youtu.be/ARVCUIxr5u0)
 
-## Demo Video
-
-[Demo Video](https://youtu.be/ARVCUIxr5u0)
-
-[![Demo Video](PDF-ChatGpt.png)](https://youtu.be/ARVCUIxr5u0)
-
-## Installation
+## 설치
 
 1. Clone the repository:
 

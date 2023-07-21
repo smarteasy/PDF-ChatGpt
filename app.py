@@ -1,6 +1,7 @@
 import gradio as gr
 import os
 from user_interface import create_demo
+# user_interface.py의 create_demo 함수- gradio로 ui를 만들고, 만들어진 ui 구성요소들을 리턴한다. 
 from logic import set_api_key, enable_api_box, add_text, generate_response, render_file
 
 demo, api_key, change_api_key, chatbot, show_img, txt, submit_btn, btn = create_demo()
